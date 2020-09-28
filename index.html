@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login form</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+
+<body>
+	<div class="limiter">
+		<div class="container-login">
+			<div class="wrap-login">
+				<div class="login-form-title" style="background-image: url(images/bg-01.jpg);">
+					<span class="login-form-title-1">
+						Log in
+					</span>
+				</div>
+
+				<form class="login-form validate-form">
+					<div class="wrap-input1">
+						<span class="label-input101">Username</span>
+						<input class="input101" type="text" name="username" placeholder="Enter username">
+					</div>
+
+				<div class="wrap-input1" >
+					<span class="label-input101">Password</span>
+						<input class="input101" type="password" name="pass" placeholder="Enter password">
+					</div>
+					<br>
+					
+						<div>
+							<a href="index 2.html" class="txt1">
+								Don't have an account?
+							</a>
+						</div>
+
+					<br>
+					<div >
+						<a href="#.html"  class="login-form-btn">
+							Sign in
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+</body>
+
+<script>
+ $( "#register" ).click(function() {
+ let password = $( "#password" ).val();
+ let password = $( "#confirm_password" ).val();
+ 
+ 
+ if( password ===confirm_password ) {
+	alert( "password correct" );
+	}else{
+	alert( "password incorrect" );
+	}
+	
+	};
+	
+</script>
+</html>
